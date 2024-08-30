@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* eb garamond */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 /* for you page */
 /* header section */
@@ -84,7 +87,7 @@ header{
 /* body */
 
 body{
-    padding-top: 80px; /*ekhane header theke main body ta ke padding dewa holo*/
+    padding-top: 80px;
 }
 
 
@@ -422,4 +425,77 @@ body{
     border-radius: 20px;
     width: 125px;
     height: 27px;
+}
+
+/* another page */
+/* hire page */
+.roboto-semibold-71 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600; /*semibold*/
+    font-size: 71px;
+    font-style: Italic;
+    color: #1A82A0;
+  }
+
+.hire-body{
+    padding: 30px 55px 0px 55px;
+}
+
+.hire-text-div{
+    width: 430px;
+}
+
+.inter-light-20{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.hire-categories{
+    width: 252px;
+    box-shadow: 0px 3px 5px  rgb(204, 204, 204);
+    border-radius: 2px;
+}
+
+.hire-categories-div{
+    padding: 0px 0px 0px 10px;
+    border-bottom: 1px  solid gray;
+}
+
+.hire-categories-button{
+    border: none;
+    background: none;
+} 
+
+.hire-categories-button-text{
+    padding-left: 38px;
+    padding-right: 38px;
+    color: #1A82A0;
+}
+
+.poppins-medium-20{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.poppins-regular-14{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.poppins-regular-20{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form-label label{
+    padding-left: 40px;
+    padding-top: 17px;
+}
+
+.form-label input{
+    padding-top: 19px;
 }
