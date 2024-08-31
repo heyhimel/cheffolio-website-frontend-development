@@ -452,7 +452,10 @@ body{
 }
 
 .hire-categories{
-    width: 252px;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 245px;
+    height: auto;
     box-shadow: 0px 3px 5px  rgb(204, 204, 204);
     border-radius: 2px;
 }
@@ -498,4 +501,68 @@ body{
 
 .form-label input{
     padding-top: 19px;
+}
+
+.hire-now{
+    margin-top: 15px;
+}
+
+.hire-now-profile{
+    width: 244px;
+    height: 228px;
+    box-shadow: 0px 3px 5px  rgb(204, 204, 204);
+    border-radius: 2px;
+}
+
+.hire-now-profile-end{
+    margin-top: 15px;
+}
+.hire-now-profile-margin{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.hire-people-name{
+    padding-left: 25px;
+    height: 108px;
+    background: #ACECFF;
+}
+
+.hire-people-name-padd{
+    padding-left: 15px;
+}
+.inter-semibold-16{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.inter-semibold-12{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.hire-profile-loc{
+    padding-left: 35px;
+    height: 63px;
+}
+
+.inter-light-13{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.hire-now-button{
+    height: 50px;
+}
+
+.hire-now-button button{
+    width: 229px;
+    height: 35px;
+    border: 1px dashed #B6B6B6;
+    border-radius: 3px;
+    background: none;
+    color: #6DC6DF;
 }
