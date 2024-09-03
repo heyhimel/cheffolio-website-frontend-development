@@ -579,3 +579,118 @@ body{
     box-shadow: 0px 3px 5px  rgb(204, 204, 204);
     border-radius: 3px;
 }
+
+/* another page profile settings */
+.save-div{
+    margin-right: 40px;
+}
+
+.poppins-semibold-22{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.poppins-regular-22{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.save-cancel-btn{
+    border: none;
+    background: none;
+}
+
+.settings-chapter-div{
+    border: 2px solid #188EB1;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    /* margin-right: 50px; */
+}
+
+.settings-chapter-div a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.settings-chpater-text{
+    height: 50px;
+    padding: 15px 0px 15px 15px;
+    
+}
+
+.settings-chapter-bottom{
+    border-bottom: 2px solid #188EB1;
+}
+
+.poppins-regular-16{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.settings-form{
+    border: 2px solid #188EB1;
+    border-radius: 10px;
+    padding: 45px 0px 45px 0px;
+    box-shadow: 0px 4px 5px  rgb(204, 204, 204);
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: #188EB1; /* Change to your preferred color */
+    margin: 0 auto;
+  }
+
+.input-style input{
+    height: 47px;
+    border-radius: 10px;
+    margin-bottom: 34px;
+}
+
+.input-style label{
+    color: #000000;
+}
+
+.cap-pic-padd{
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.about-form{
+    border: 2px solid #188EB1;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 33px 50px 0px 26px;
+    box-shadow: 0px 4px 5px  rgb(204, 204, 204);
+}
+.about-form label{
+    margin-bottom: 20px;
+}
+.about-form input{
+    height: 126px;
+    border-radius: 10px;
+    margin-bottom: 34px;
+    border: 1px solid #D3D3D3;
+}
+
+.edu-form{
+    border: 2px solid #188EB1;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 33px 50px 0px 26px;
+    box-shadow: 0px 4px 5px  rgb(204, 204, 204);
+}
+.edu-form label{
+    margin-bottom: 20px;
+}
+
+.edu-form input{
+    height: 36px;
+    border-radius: 10px;
+    margin-bottom: 58px;
+    border: 1px solid #D3D3D3;
+}
