@@ -21,3 +21,21 @@ function downAngle()
     }
     
 }
+
+
+// see more and see less text option
+function seeMore()
+{
+    let text = document.getElementById("about-text");
+    let seeBtnLess = document.getElementById("seeBtn");
+    if(text.style.display != "block")
+    {
+        text.style.display = "block";
+        seeBtnLess.innerHTML = "See less";
+    }
+    else
+    {
+        text.style.display = "none";
+        seeBtnLess.innerHTML = "See more...";
+    }
+}
