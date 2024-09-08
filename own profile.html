@@ -18,7 +18,7 @@
 </head>
 
 <body class="">
-<!-- cover photo -->
+    <!-- cover photo -->
     <section>
         <div class="position-relative">
             <img src="images/cover picture.png" alt="" class="img-fluid">
@@ -60,11 +60,16 @@
                         About me
                     </div>
                     <div class="poppins-regular-10">
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.
                         <span class="about-text" id="about-text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reiciendis neque id iure, consequuntur sapiente quis. Cum est ab temporibus, ad a voluptas possimus magnam tenetur soluta explicabo, inventore voluptatem.
-                        </span> 
-                        <button id="seeBtn" onclick="seeMore()" class="button-style poppins-semibold-10">See more...</button>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore reiciendis neque id iure,
+                            consequuntur sapiente quis. Cum est ab temporibus, ad a voluptas possimus magnam tenetur
+                            soluta explicabo, inventore voluptatem.
+                        </span>
+                        <button id="seeBtn" onclick="seeMore()" class="button-style poppins-semibold-10">See
+                            more...</button>
                     </div>
 
                     <div class="poppins-medium-14 mt-3">
@@ -100,7 +105,8 @@
                                 Location
                             </div>
                         </div>
-                        <button class="button-style w-100 text-end poppins-semibold-10">More <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <button class="button-style w-100 text-end poppins-semibold-10">More <i
+                                class="fa fa-angle-right" aria-hidden="true"></i>
                         </button>
                     </div>
 
@@ -111,7 +117,7 @@
                         Education
                     </div>
                     <div class="poppins-bold-11 head-chef-color mt-2">
-                        International management advance college 
+                        International management advance college
                     </div>
                     <div class="poppins-regular-10">
                         Diploma, Diploma in establishment and management of
@@ -125,9 +131,10 @@
                 </div>
 
             </div>
-            <!--  -->
-            <div class=" flex-grow-1">
-                <div class="d-flex align-items-center">
+            <!-- bootcamp and others div -->
+            <div class="flex-grow-1">
+                <!-- bootcamp -->
+                <div class="d-flex flex-wrap align-items-center">
                     <div class="flex-grow-1">
                         <button class="featured-btn poppins-regular-15">Featured</button>
                     </div>
@@ -144,10 +151,166 @@
                         <img src="images/level 3.png" alt="">
                     </div>
                 </div>
+
+                <!-- others div 1st row -->
+                <div class="d-flex gap-others-div flex-wrap">
+
+                    <div class="others-div">
+                        <button class="btn w-100 h-100" onclick="projectOpen()"></button>
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+
+                </div>
+
+                <!-- others div 2nd row -->
+                <div class="d-flex gap-others-div flex-wrap mt-3">
+
+                    <div class="others-div">
+
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+                    <div class="others-div">
+
+                    </div>
+
+                </div>
+
+                <!-- add button and see more button -->
+
+                <div class="d-flex flex-wrap ">
+                    <div>
+                        <button class="button-style" onclick="addImage()"><img src="images/hug.png" alt=""></button>
+                        <div id="add-image-overlay" class="msg-overlay"></div>
+
+                        <div id="add-image-popup" class="add-image-popup">
+                            <div class="add-image-title poppins-bold-24 ">
+                                Add title
+                            </div>
+                            <div class="upload-image">
+                                <div>
+                                    <img src="images/Download from the Cloud.png" alt="">
+                                </div>
+                                <div class="inter-regular-14 upload-text">
+                                    Quick share your image
+                                </div>
+                                <div class="inter-regular-24">
+                                    Upload Image
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-around flex-grow-1">
+                        <div class="seemore-dashed"></div>
+                        <button class="see-more-btn poppins-regular-14">See more</button>
+                        <div class="seemore-dashed"></div>
+                    </div>
+                </div>
+
+                <!-- Recommendations -->
+                <div class="mt-5">
+                    <div class="d-flex poppins-semibold-15 ">
+                        <div class="recommend-gradiant">Recommendations</div>
+                        <div>13</div>
+                    </div>
+                    <div class="d-flex flex-wrap gap-others-div mt-4">
+                        <div class=" recommend-profile">
+                            <div class="d-flex gap-2 align-items-center">
+                                <div><img src="images/Ellipse 5.png" alt=""></div>
+                                <div class="poppins-medium-12">Name here</div>
+                            </div>
+                            <div class="mt-2 radley-regular-10">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </div>
+                        </div>
+                        <div class=" recommend-profile">
+                            <div class="d-flex gap-2 align-items-center">
+                                <div><img src="images/Ellipse 5.png" alt=""></div>
+                                <div class="poppins-medium-12">Name here</div>
+                            </div>
+                            <div class="mt-2 radley-regular-10">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
+        </div>
     </section>
 
+    <!-- project popup -->
+    <div id="project-overlay" class="msg-overlay"></div>
+
+    <div id="project-popup" class="project-popup">
+        <div class="d-flex align-items-center">
+            <div>
+                <img src="images/Ellipse 5 (1).png" alt="">
+            </div>
+            <div class="flex-grow-1 poppins-regular-24 project-profile">
+                Arafatul Islam
+            </div>
+            <div>
+                <button class="follow-btn inter-regular-14">Follow</button>
+            </div>
+            <div class="project-profile">
+                <button class="msg-btn inter-regular-14">Message</button>
+            </div>
+        </div>
+        <div class="d-flex project-name align-items-center">
+            <div class="poppins-bold-40 flex-grow-1">
+                Project Name
+            </div>
+            <div>
+                1.5k
+            </div>
+            <div>
+                <button class="btn"><img src="images/Like button.png" alt=""></button>
+            </div>
+        </div>
+        <div class="project-name-background poppins-regular-15">
+            About projects
+        </div>
+        <!-- scroll snap remaining -->
+        <div class="image-container">
+            <div class="">
+                <img src="images/Birthday thumbnail 2 1.png" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="pt-5">
+                <img src="images/Mash Potatoes Thumbnail Design 1.png" alt="Image 2">
+            </div>
+            <div class="pt-5">
+                <img src="images/why not growup our life 1.png" alt="Image 3">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="Js/body-popup/add-new.js"></script>
+    <script src="Js/body-popup/project.js"></script>
     <script src="Js/main/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
