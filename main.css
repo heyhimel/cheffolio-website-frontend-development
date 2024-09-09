@@ -726,8 +726,7 @@ body{
     padding-right: 27px;
     border-radius: 6px;
     background: #ffffff;
-    z-index: 11;
-    transform:translateY(-100px);
+    transform:translate(0px,-100px);
 }
 
 .profile-image-pos{
